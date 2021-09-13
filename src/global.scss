@@ -1,0 +1,15 @@
+$mainColor: #15023a;
+$softMainColor: #986de9;
+$width:768px;
+@mixin mobile{
+  @media (max-width:#{$width}){
+    @content
+  }
+}
+
+
+@mixin horizontal-centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
